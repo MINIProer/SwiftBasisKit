@@ -12,7 +12,7 @@ let package = Package(
             targets: ["SwiftBasisKit"]),
     ],
     dependencies: [
-            .package(url: "https://github.com/MINIProer/SwiftShareKit.git", .branch("main")),
+            .package(url: "https://github.com/MINIProer/SwiftShareKit.git", from: "1.0.0"),
         ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
