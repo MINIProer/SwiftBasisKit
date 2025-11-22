@@ -1,13 +1,22 @@
 {
-  "originHash" : "b5bc8100fc09e491628cf9eddc43f64fbb80a2a9cea72384ad1026237e556c42",
+  "originHash" : "0f212059aff388b7029f4d72f0e756dc060190fb23933c477d7428b03f04acdc",
   "pins" : [
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
     {
       "identity" : "swiftsharekit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/MINIProer/SwiftShareKit.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "c1f416c4776c6ef8d68b83ba706bcf0dd3e9d6cf"
+        "revision" : "c1f416c4776c6ef8d68b83ba706bcf0dd3e9d6cf",
+        "version" : "1.0.0"
       }
     }
   ],

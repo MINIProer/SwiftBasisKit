@@ -13,6 +13,7 @@ let package = Package(
     ],
     dependencies: [
             .package(url: "https://github.com/MINIProer/SwiftShareKit.git", from: "1.0.0"),
+            .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.7.1")
         ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -20,7 +21,8 @@ let package = Package(
         .target(
             name: "SwiftBasisKit",
             dependencies: [
-                .product(name: "SwiftShareKit", package: "SwiftShareKit")
+                .product(name: "SwiftShareKit", package: "SwiftShareKit"),
+                .product(name: "SnapKit", package: "SnapKit")
             ]),
         .testTarget(
             name: "SwiftBasisKitTests",
