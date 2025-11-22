@@ -1,0 +1,15 @@
+{
+  "originHash" : "b5bc8100fc09e491628cf9eddc43f64fbb80a2a9cea72384ad1026237e556c42",
+  "pins" : [
+    {
+      "identity" : "swiftsharekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MINIProer/SwiftShareKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c1f416c4776c6ef8d68b83ba706bcf0dd3e9d6cf"
+      }
+    }
+  ],
+  "version" : 3
+}
