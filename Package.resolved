@@ -1,22 +1,49 @@
 {
-  "originHash" : "0f212059aff388b7029f4d72f0e756dc060190fb23933c477d7428b03f04acdc",
+  "originHash" : "ef2959852e1781e5b93da450a7950f83d904b105bef7f0477ed56c433c3c7715",
   "pins" : [
     {
-      "identity" : "snapkit",
+      "identity" : "alamofire",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
       "state" : {
-        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
-        "version" : "5.7.1"
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
       }
     },
     {
-      "identity" : "swiftsharekit",
+      "identity" : "moya",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/MINIProer/SwiftShareKit.git",
+      "location" : "https://github.com/Moya/Moya.git",
       "state" : {
-        "revision" : "c1f416c4776c6ef8d68b83ba706bcf0dd3e9d6cf",
-        "version" : "1.0.0"
+        "revision" : "c263811c1f3dbf002be9bd83107f7cdc38992b26",
+        "version" : "15.0.3"
+      }
+    },
+    {
+      "identity" : "objectmapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tristanhimmelman/ObjectMapper.git",
+      "state" : {
+        "revision" : "6021c6035e83a306047348666f6400dc61445d3b",
+        "version" : "4.4.3"
+      }
+    },
+    {
+      "identity" : "reactiveswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveCocoa/ReactiveSwift.git",
+      "state" : {
+        "revision" : "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
+        "version" : "6.7.0"
+      }
+    },
+    {
+      "identity" : "rxswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ReactiveX/RxSwift.git",
+      "state" : {
+        "revision" : "5004a18539bd68905c5939aa893075f578f4f03d",
+        "version" : "6.9.1"
       }
     }
   ],
